@@ -111,7 +111,7 @@ export default function PatientsRecord() {
           </div>
         </form>
       </div>
-      <section>
+      <section style={{ display: patients.length > 0 ? "block" : "none" }}>
         <PatientsList patients={patients} deletePatient={deletePatient} />
       </section>
     </div>

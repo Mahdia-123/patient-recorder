@@ -17,8 +17,8 @@ export default function PatientsList({ patients, deletePatient }) {
         <div className="patients-detrails" key={p.id}>
           <div>{p.name}</div>
           <div>{p.lastName}</div>
-          <div>{p.age}</div>
-          <div>{p.gender}</div>
+          <div>{p.age} y</div>
+          <div>{p.gender} </div>
           <div>{p.condition}</div>
           <div>{p.appointmentDate}</div>
           <div>
