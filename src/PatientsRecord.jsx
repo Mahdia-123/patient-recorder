@@ -80,7 +80,7 @@ export default function PatientsRecord() {
           <span>
             <label>Gender: </label>
             <select name="gender" value={form.gender} onChange={handleChange}>
-              <option value="">Select Gender: </option>
+              <option value="">Select Gender </option>
               <option value="male">Male</option>
               <option value="female">Female</option>
             </select>
